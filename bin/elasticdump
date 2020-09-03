@@ -16,6 +16,7 @@ const defaults = {
   debug: false,
   type: 'data',
   delete: false,
+  deleteIndex: false,
   maxSockets: null,
   input: null,
   'input-index': null,

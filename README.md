@@ -301,6 +301,9 @@ Usage: elasticdump --input SOURCE --output DESTINATION [OPTIONS]
                     Delete documents one-by-one from the input as they are
                     moved.  Will not delete the source index
                     (default: false)
+--deleteIndex
+                    Delete source index after dump finished
+                    (default: false)
 --searchBody
                     Preform a partial extract based on search results
                     when ES is the input, default values are
